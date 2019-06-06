@@ -1,0 +1,38 @@
+[{
+        "type": "cbt",
+        "serverUri": "crossbrowsertesting.com:80",
+        "userName": "Alexey.Martynkin@smartbear.com",
+        "authKey": "ua2e6567fcb3ed8e",
+        "configs" : [{
+                "name": "CBT_Chrome",
+                "browserName": "Chrome",
+                "maxDuration": "1200",
+                "version": "72",
+                "platform": "Windows 10",
+                "screenResolution": "1920x1080",
+                "record_video": "true"
+            }
+        ]
+
+    },
+    {
+        "type": "grid",
+        "serverUri": "127.0.0.1:4444",
+        "configs": [{
+                "name": "gridChrome",
+                "browserName": "Chrome"
+            }
+        ]
+    },
+
+    {
+        "type": "local",
+        "driverPath": "D:\\drivers\\chromedriver.exe",
+        "configs" : [{
+                "name": "localChrome",
+                "browserName": "Chrome"
+            }
+        ]
+
+    }
+]

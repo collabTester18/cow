@@ -1,0 +1,7 @@
+* @global-owner0 @Stanchits
+*.json json-owner@json-owner.com
+src @src-owner
+/src/* @stranger-owner0
+materials @materials-owner
+/src/diffviewer/ @diffviewer-owner
+/src/diffviewer/DiffViewerLine.java @diffviewerline-owner

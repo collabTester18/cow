@@ -1,0 +1,168 @@
+[
+    {
+        "name": "GitHubSaaS",
+        "system": "GITHUB",
+        "external": true,
+        "serverUrl": "https://github.com",
+        "serverApiUri": "https://api.github.com",
+        "accounts": [
+            {
+                "name": "collabTester18",
+                "password": "collabTest17",
+                "email": "bitbucketTest@ya.ru",
+                "token": "c4b02e5b21654a8418b118944b4f9739524e1fe0"
+            }
+        ],
+        "repositories": [
+            {
+                "name": "test",
+                "owner" : "collabTester18",
+                "isUserRepo" : true,
+                "files": [
+                    {
+                        "name": "duck.txt",
+                        "lines": 10
+                    }
+                ],
+                "defaultAccount": "collabTester18"
+            },
+            {
+                "name": "simple",
+                "owner" : "collabTester18",
+                "isUserRepo" : true,
+                "files": [
+                    {
+                        "name": "simple.txt",
+                        "lines": 20
+                    }
+                ],
+                "defaultAccount": "collabTester18"
+            }
+        ]
+    },
+
+    {
+        "name": "GitLabSaaS",
+        "system": "GITLAB",
+        "external": true,
+        "serverUrl": "https://gitlab.com",
+        "serverApiUri": "https://gitlab.com",
+        "accounts": [
+            {
+                "name": "collabTester",
+                "password": "collabTest17",
+                "email": "bitbucketTest@ya.ru",
+                "token": "C5NCSoruWQyCVVByXVro"
+            }
+        ],
+        "repositories": [
+            {
+                "name": "test",
+                "owner" : "collabTester",
+                "isUserRepo" : true,
+                "files": [
+                    {
+                        "name": "duck.txt",
+                        "lines": 10
+                    }
+                ],
+                "defaultAccount": "collabTester"
+            },
+            {
+                "name": "simple",
+                "owner" : "collabTester",
+                "isUserRepo" : true,
+                "files": [
+                    {
+                        "name": "simple.txt",
+                        "lines": 20
+                    }
+                ],
+                "defaultAccount": "collabTester"
+            }
+        ]
+    },
+
+    {
+        "name": "BitbucketSaaS",
+        "system": "BITBUCKET",
+        "external": true,
+        "serverUrl": "https://bitbucket.org",
+        "serverApiUri": "https://api.bitbucket.org",
+        "accounts": [
+            {
+                "name": "collabTester",
+                "password": "collabTest17",
+                "email": "bitbucketTest@ya.ru",
+                "token": "mVRParTHXJeNyAwzrkXe"
+            }
+        ],
+        "repositories": [
+            {
+                "name": "test",
+                "owner" : "collabTester",
+                "isUserRepo" : true,
+                "files": [
+                    {
+                        "name": "duck.txt",
+                        "lines": 10
+                    }
+                ],
+                "defaultAccount": "collabTester"
+            },
+            {
+                "name": "simple",
+                "owner" : "collabTester",
+                "isUserRepo" : true,
+                "files": [
+                    {
+                        "name": "simple.txt",
+                        "lines": 20
+                    }
+                ],
+                "defaultAccount": "collabTester"
+            }
+        ]
+    },
+
+    {
+        "name": "BitbucketServer",
+        "system": "BITBUCKET_SERVER",
+        "external": true,
+        "serverUrl": "https://scm-bitbucket.collabdevteam.net",
+        "serverApiUri": "https://scm-bitbucket.collabdevteam.net",
+        "accounts": [
+            {
+                "name": "bbAdmin",
+                "password": "bbAdmin",
+                "email": "bbAdmin@bbAdmin.com"
+            }
+        ],
+        "repositories": [
+            {
+                "name": "test",
+                "owner" : "PROJ",
+                "isUserRepo" : false,
+                "files": [
+                    {
+                        "name": "duck.txt",
+                        "lines": 10
+                    }
+                ],
+                "defaultAccount": "bbAdmin"
+            },
+            {
+                "name": "simple",
+                "owner" : "PROJ",
+                "isUserRepo" : false,
+                "files": [
+                    {
+                        "name": "simple.txt",
+                        "lines": 20
+                    }
+                ],
+                "defaultAccount": "bbAdmin"
+            }
+        ]
+    }
+]
