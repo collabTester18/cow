@@ -1,4 +1,4 @@
-package com.smartbear.collaborator.qa.entities;
++package com.smartbear.collaborator.qa.entities;
 
 import com.smartbear.collaborator.qa.entities.user.StandardUserRole;
 import com.smartbear.collaborator.qa.json.api.commands.user.data.ActionItemData;
