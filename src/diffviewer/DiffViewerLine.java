@@ -1,6 +1,6 @@
 +package com.smartbear.collaborator.qa.entities.diffviewer;
 
-import org.apache.commons.logging.Log;
++import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 public class DiffViewerLine {
