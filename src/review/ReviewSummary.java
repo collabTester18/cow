@@ -1,4 +1,4 @@
-package com.smartbear.collaborator.qa.entities.review;
++package com.smartbear.collaborator.qa.entities.review;
 
 import com.smartbear.collaborator.qa.entities.review.materials.MaterialsFile;
 import com.smartbear.collaborator.qa.entities.review.materials.Section;

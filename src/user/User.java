@@ -1,4 +1,4 @@
-package com.smartbear.collaborator.qa.entities.user;
++package com.smartbear.collaborator.qa.entities.user;
 
 import com.smartbear.collaborator.qa.entities.integrations.RemoteSystemIntegration;
 import com.smartbear.collaborator.qa.json.api.commands.user.data.UserInfo;
