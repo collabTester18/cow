@@ -1,5 +1,5 @@
 [{
-        "type": "cbt",
++        "type": "cbt",
         "serverUri": "crossbrowsertesting.com:80",
         "userName": "Alexey.Martynkin@smartbear.com",
         "authKey": "ua2e6567fcb3ed8e",
