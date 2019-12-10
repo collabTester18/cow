@@ -1,4 +1,4 @@
-package com.smartbear.collaborator.qa.json;
++package com.smartbear.collaborator.qa.json;
 
 import com.smartbear.collaborator.qa.json.api.JsonAction;
 import com.smartbear.collaborator.qa.json.api.commands.sessionService.Authenticate;
