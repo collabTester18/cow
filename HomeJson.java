@@ -1,6 +1,6 @@
 package com.smartbear.collaborator.qa.json;
 
-import com.smartbear.collaborator.qa.entities.ActionItem;
++import com.smartbear.collaborator.qa.entities.ActionItem;
 import com.smartbear.collaborator.qa.json.api.JsonAction;
 import com.smartbear.collaborator.qa.json.api.commands.user.GetActionItemsCommand;
 import com.smartbear.collaborator.qa.json.api.commands.user.data.ActionItemData;
